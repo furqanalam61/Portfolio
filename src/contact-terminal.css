@@ -1,0 +1,35 @@
+.contact { display:grid; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr); align-items:center; gap:clamp(22px,3vw,40px) clamp(30px,5vw,70px); padding:38px 40px 34px; }
+.contact-copy { position:relative; z-index:1; }
+.contact-copy .contact-top { align-items:center; }
+.contact-copy .contact-scribble { margin-right:0; }
+.contact-terminal { position:relative; z-index:1; overflow:hidden; border:1px solid #4b4545; border-radius:17px; background:linear-gradient(145deg,#211f20,#171618 72%); box-shadow:0 22px 60px #0006,0 0 55px #c18a4b12; color:#d4d1d0; font:12px/1.55 var(--mono); }
+.terminal-topbar { height:40px; display:flex; align-items:center; gap:14px; padding:0 16px; border-bottom:1px solid #ffffff12; background:#2a2728; color:#aaa5a3; font-size:10px; }
+.terminal-lights { display:flex; gap:6px; }
+.terminal-lights i { width:9px; height:9px; display:block; border-radius:50%; background:#fb5e58; }
+.terminal-lights i:nth-child(2) { background:#ffbd3d; }
+.terminal-lights i:nth-child(3) { background:#31c966; }
+.terminal-content { padding:21px 23px 24px; }
+.terminal-content p { margin:0; }
+.terminal-content p b,.terminal-connect b { color:#d9a960; font-weight:500; margin-right:4px; }
+.terminal-result { color:#d2ced1; padding:3px 0 17px; }
+.terminal-command { padding-top:2px; }
+.terminal-status { padding-top:3px!important; color:#c5c1c3; }
+.terminal-status i { color:#5dda9b; font-style:normal; margin-right:7px; }
+.terminal-connect { display:inline-flex; align-items:center; gap:4px; margin-top:20px; color:#d7d2d2; transition:color 180ms ease; }
+.terminal-connect:hover { color:#f1c57d; }
+.terminal-connect span { color:var(--gold); margin-left:4px; }
+.terminal-connect:focus-visible { outline:2px solid var(--gold); outline-offset:4px; border-radius:3px; }
+.contact-bottom { align-items:center; }
+.contact-terminal-cta { flex:none; justify-self:auto; margin:0 5px 0 20px; }
+@media(max-width:800px) {
+  .contact { grid-template-columns:1fr; gap:22px; padding:30px 24px 26px; }
+  .contact-terminal { width:100%; }
+  .contact-bottom { align-items:center; }
+  .contact-terminal-cta { margin:0 0 0 14px; }
+}
+@media(max-width:520px) {
+  .terminal-content { padding:18px 16px 20px; font-size:10px; }
+  .terminal-topbar { height:36px; }
+  .contact { padding:24px 18px 22px; }
+  .contact-terminal-cta { height:42px; padding:0 14px; gap:10px; }
+}
