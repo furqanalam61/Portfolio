@@ -1,0 +1,96 @@
+/* Calm, low-amplitude motion inspired by the reference portfolio. */
+.motion-ready .section-heading,
+.motion-ready .project-card,
+.motion-ready .work-bottom,
+.motion-ready .about-label,
+.motion-ready .about-main,
+.motion-ready .skill-card,
+.motion-ready .experience-head,
+.motion-ready .timeline article,
+.motion-ready .contact-top,
+.motion-ready .contact h2,
+.motion-ready .contact-bottom {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity 760ms cubic-bezier(.2,.7,.2,1), transform 760ms cubic-bezier(.2,.7,.2,1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.motion-ready .section-heading.is-revealed,
+.motion-ready .project-card.is-revealed,
+.motion-ready .work-bottom.is-revealed,
+.motion-ready .about-label.is-revealed,
+.motion-ready .about-main.is-revealed,
+.motion-ready .skill-card.is-revealed,
+.motion-ready .experience-head.is-revealed,
+.motion-ready .timeline article.is-revealed,
+.motion-ready .contact-top.is-revealed,
+.motion-ready .contact h2.is-revealed,
+.motion-ready .contact-bottom.is-revealed {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.hero-copy { animation: intro-rise 900ms cubic-bezier(.2,.7,.2,1) both; }
+.hero-copy .eyebrow { animation: intro-rise 700ms 100ms both; }
+.hero-copy h1 { animation: intro-rise 800ms 180ms both; }
+.hero-intro { animation: intro-rise 800ms 280ms both; }
+.hero-actions { animation: intro-rise 800ms 380ms both; }
+.hero-meta { animation: intro-rise 800ms 480ms both; }
+.hero-art { animation: art-arrive 1100ms 120ms cubic-bezier(.2,.7,.2,1) both; }
+.portrait-card { transition: transform 500ms cubic-bezier(.2,.7,.2,1), box-shadow 500ms ease; animation: portrait-float 6.5s ease-in-out infinite; }
+.portrait-card:hover { transform: rotate(0deg) translateY(-7px); box-shadow: 0 30px 90px #0009; }
+.orbit-one { animation: orbit-drift 34s linear infinite; transform-origin: center; }
+.orbit-two { animation: orbit-drift-reverse 42s linear infinite; transform-origin: center; }
+.orbit-note { animation: badge-float 5s ease-in-out infinite; }
+.live-dot { animation: dot-pulse 2.6s ease-in-out infinite; }
+
+.project-card { transition: transform 350ms cubic-bezier(.2,.7,.2,1); }
+.project-card:hover { transform: translateY(-5px); }
+.project-visual { transition: filter 350ms ease, transform 500ms cubic-bezier(.2,.7,.2,1); }
+.project-visual:hover { filter: saturate(1.12) brightness(1.08); }
+.project-visual.has-project-images::before,
+.project-visual.has-project-images::after { display: none; }
+.project-image-slideshow { position: absolute; z-index: 0; inset: 0; overflow: hidden; background: #171715; }
+.project-image-slideshow img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 700ms ease; }
+.project-image-slideshow img.is-active { opacity: 1; }
+.project-image-shade { position: absolute; inset: 0; background: linear-gradient(180deg, #10100f28 0%, transparent 38%, #10100f89 100%); pointer-events: none; }
+.admin-project-media { display: grid; gap: 12px; margin-top: 18px; padding-top: 15px; border-top: 1px solid #ffffff12; }
+.admin-project-media > p { display: grid; gap: 5px; margin: 0; color: #e2ded3; font-size: 11px; font-weight: 600; }
+.admin-project-media > p small { color: #8e8b82; font-size: 10px; font-weight: 400; line-height: 1.6; }
+.admin-project-image-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.admin-project-image { position: relative; width: 112px; height: 78px; overflow: hidden; border: 1px solid #454239; border-radius: 8px; background: #23221d; }
+.admin-project-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.admin-project-image .admin-remove { position: absolute; top: 4px; right: 4px; width: 23px; height: 23px; display: grid; place-items: center; border-color: #ffffff75; background: #11110fbd; color: #fff; line-height: 1; }
+@media(prefers-reduced-motion:reduce) { .project-image-slideshow img { transition: none; } }
+.project-symbol { transition: transform 500ms cubic-bezier(.2,.7,.2,1), color 350ms ease; }
+.project-visual:hover .project-symbol { transform: translate(-50%,-50%) scale(1.15) rotate(-8deg); color: #fff; }
+.project-open { transition: transform 350ms ease, background-color 350ms ease, color 350ms ease; }
+.project-visual:hover .project-open { transform: rotate(45deg); background: var(--paper); color: var(--bg); }
+.arrow { display: inline-block; transition: transform 250ms ease; }
+a:hover > .arrow, a:hover .arrow { transform: translate(3px,-2px); }
+.button-primary:hover > .arrow { transform: translate(3px,-2px); }
+.menu-panel { transform-origin: top right; animation: menu-drop 240ms cubic-bezier(.2,.7,.2,1) both; }
+.menu-panel > a { transition: padding 220ms ease, color 220ms ease; }
+.menu-panel > a:hover { padding-left: 7px; }
+.skill-card { transition: border-color 300ms ease, background-color 300ms ease; }
+.skill-card:hover { border-color: #726044; background-color: #201f1b; }
+.skill-card > div span { transition: color 220ms ease, border-color 220ms ease, transform 220ms ease; }
+.skill-card > div span:hover { color: var(--gold); border-color: #9c8055; transform: translateY(-2px); }
+.about-stamp { animation: stamp-turn 24s linear infinite; }
+.contact-scribble { display: inline-block; animation: star-turn 18s linear infinite; }
+
+@keyframes intro-rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes art-arrive { from { opacity: 0; transform: translateY(20px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes orbit-drift { to { transform: rotate(390deg); } }
+@keyframes orbit-drift-reverse { to { transform: rotate(-391deg); } }
+@keyframes badge-float { 0%,100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@keyframes portrait-float { 0%,100% { translate: 0 0; } 50% { translate: 0 -7px; } }
+@keyframes dot-pulse { 0%,100% { box-shadow: 0 0 5px #d8aa6280; } 50% { box-shadow: 0 0 15px #d8aa62; } }
+@keyframes menu-drop { from { opacity: 0; transform: translateY(-8px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes stamp-turn { to { rotate: 348deg; } }
+@keyframes star-turn { to { rotate: 360deg; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#171613" stroke="#d9a960" stroke-opacity=".55" stroke-width="2" />
+  <text x="31" y="45" fill="#d9a960" font-family="Bodoni 72, Didot, Georgia, serif" font-size="38" font-style="italic" font-weight="600" text-anchor="middle" letter-spacing="-5">FA</text>
+  <circle cx="51" cy="46" r="3" fill="#e9e7de" />
+</svg>

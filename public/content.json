@@ -1,0 +1,383 @@
+{
+  "name": "Furqan Alam",
+  "photo": "",
+  "cv": "/media/cv/Furqan-s-CV--21-08-25.pdf",
+  "cvName": "Furqan-s-CV--21-08-25.pdf",
+  "footerText": "DESIGNED & BUILT WITH ❤️",
+  "copy": {
+    "pageTitle": "Furqan Alam Portfolio",
+    "navigationLabel": "Main navigation",
+    "projectFilterLabel": "Filter projects",
+    "terminalLabel": "Contact terminal",
+    "openMenuLabel": "Open navigation",
+    "closeMenuLabel": "Close navigation",
+    "closeDrawerLabel": "Close navigation menu",
+    "topRole": "INDEPENDENT DEVELOPER",
+    "topLocation": "PAKISTAN",
+    "navWork": "Work",
+    "navAbout": "About",
+    "navEducation": "Education",
+    "navExperience": "Experience",
+    "navContact": "Contact",
+    "drawerTitle": "NAVIGATION",
+    "drawerAvailability": "AVAILABLE FOR SELECT PROJECTS",
+    "heroEyebrow": "DEVELOPER · VIBE CODER · BUILDER",
+    "heroTitleLine1": "Making the",
+    "heroTitleLine2": "internet feel a",
+    "heroTitleEmphasis": "little more human.",
+    "heroIntro": "Hey, I’m Furqan — a developer who cares about the details. I build thoughtful digital products with a little curiosity and a lot of care.",
+    "heroWorkCta": "Explore my work",
+    "heroAboutCta": "A little about me",
+    "heroCvCta": "Download my CV",
+    "heroLocation": "BASED IN LAHORE, PAKISTAN",
+    "heroAvailability": "AVAILABLE FOR WORK",
+    "portraitCaption": "BUILDING WITH INTENTION",
+    "portraitBadgeTop": "MAKE",
+    "portraitBadgeBottom": "IT MATTER",
+    "scrollCue": "SCROLL TO EXPLORE",
+    "workEyebrow": "A FEW THINGS I’VE MADE",
+    "workTitle": "Selected",
+    "workEmphasis": "work",
+    "workAside": "Small ideas, shaped into\nuseful digital things.",
+    "allWorkLabel": "All categories",
+    "workFooter": "MORE EXPERIMENTS ARE ALWAYS IN PROGRESS",
+    "githubCta": "Find me on GitHub",
+    "projectCaptionPrefix": "AN EXPLORATION IN",
+    "aboutEyebrow": "A BIT ABOUT ME",
+    "aboutStampTop": "GOOD THINGS",
+    "aboutStampBottom": "TAKE THOUGHTS",
+    "skillsEyebrow": "THE THINGS IN MY TOOLBOX",
+    "skillsTitle": "Good tools,",
+    "skillsEmphasis": "good work.",
+    "skillsAside": "A growing collection of\nthings I enjoy working with.",
+    "experienceEyebrow": "A LITTLE OF THE JOURNEY",
+    "experienceTitle": "Learning as",
+    "experienceEmphasis": "I go.",
+    "experienceAside": "Every project teaches me something new. Here’s a snapshot of what I’ve been up to.",
+    "educationEyebrow": "WHERE I LEARNED",
+    "educationTitle": "The learning",
+    "educationEmphasis": "behind the work.",
+    "educationAside": "A little about my academic background.",
+    "contactEyebrow": "HAVE A GOOD ONE IN MIND?",
+    "contactTitleLine1": "Let’s make",
+    "contactTitleLine2": "something",
+    "contactTitleEmphasis": "matter.",
+    "contactBlurb": "I’m always up for a thoughtful conversation\nor a project with a little spark.",
+    "contactButton": "Say hello",
+    "terminalFile": "contact.sh",
+    "terminalWhoCommand": "whoami",
+    "terminalStatusCommand": "status --check",
+    "terminalAvailable": "available for new projects",
+    "terminalResponse": "response time ~24h",
+    "terminalLocation": "based in Pakistan (UTC+5)",
+    "terminalEmailCommand": "connect --email",
+    "footerYear": "2026",
+    "footerBackToTop": "BACK TO TOP ↑",
+    "footerGithubLabel": "GITHUB",
+    "footerLinkedinLabel": "LINKEDIN",
+    "whatsappLabel": "Chat on WhatsApp",
+    "terminalRole": "Developer",
+    "projectOpenPrefix": "Open",
+    "projectAskPrefix": "Ask me about"
+  },
+  "links": {
+    "email": "furqan_alam@hotmail.com",
+    "github": "https://github.com/furqanalam61",
+    "linkedin": "https://www.linkedin.com/in/furqanalam61",
+    "whatsapp": "+923347121907"
+  },
+  "floatingSkills": [
+    "Swift",
+    "SwiftUI",
+    "React Native",
+    "Vibe Coding",
+    "CI/CD"
+  ],
+  "skillsVersion": 2,
+  "about": {
+    "title": "Thoughtful by nature.",
+    "emphasis": "Curious by default.",
+    "paragraphs": [
+      "I’m a developer based in Pakistan who likes bringing good ideas to life on the mobile. I enjoy the whole process — from figuring out what a product should feel like to making the tiny interactions work just right.",
+      "When I’m away from the screen, I’m probably collecting inspiration, learning something new, or enjoying a very good cup of chai."
+    ],
+    "facts": [
+      {
+        "label": "01 / APPROACH",
+        "text": "Make it useful.\nMake it feel good."
+      },
+      {
+        "label": "02 / CURRENTLY",
+        "text": "Exploring creative\nmobile development."
+      },
+      {
+        "label": "03 / ELSEWHERE",
+        "text": "Design, drifting,\nand long walks."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "number": "01",
+      "type": "FINTECH",
+      "name": "SomBank - TPlus",
+      "description": "A full fledge Somalian banking app that lets you send and request money to single and multiple remittance through multiple mode of payments, create goal, pool and schedule payments or lets you manage your linked cards. App uses biometric for authentication, encryption for security, file uploading and supports multiple accounts and session.",
+      "stack": [
+        "SwiftUI",
+        "AES Encryption",
+        "FCM Notifications",
+        "Location Manager",
+        "Biometrics Authentication"
+      ],
+      "tone": "sage",
+      "icon": "✳",
+      "url": "",
+      "images": [
+        "/media/projects/project-01-image-01.jpg",
+        "/media/projects/project-01-image-02.jpg",
+        "/media/projects/project-01-image-03.jpg",
+        "/media/projects/project-01-image-04.jpg",
+        "/media/projects/project-01-image-05.jpg",
+        "/media/projects/project-01-image-06.jpg",
+        "/media/projects/project-01-image-07.jpg",
+        "/media/projects/project-01-image-08.jpg"
+      ]
+    },
+    {
+      "number": "02",
+      "type": "FOOD",
+      "name": "Palato",
+      "description": "Application that lets you see the nearby restaurants around you. Users can book, create one to one request and one request to multiple restaurants and accept and reject offers against desired time slots. Chat is integrated so user can negotiate with the venue or have support from admin. App also supports Arabic localization.",
+      "stack": [
+        "SwiftUI",
+        "FCM Notifications",
+        "Socket.io",
+        "Location Manager",
+        "Localization",
+        "Google Map",
+        "Google Address",
+        "Stripe Payment"
+      ],
+      "tone": "clay",
+      "icon": "◒",
+      "url": "",
+      "images": [
+        "/media/projects/project-02-image-01.jpg",
+        "/media/projects/project-02-image-02.jpg",
+        "/media/projects/project-02-image-03.jpg",
+        "/media/projects/project-02-image-04.jpg",
+        "/media/projects/project-02-image-05.jpg",
+        "/media/projects/project-02-image-06.jpg",
+        "/media/projects/project-02-image-07.jpg",
+        "/media/projects/project-02-image-08.jpg"
+      ]
+    },
+    {
+      "number": "03",
+      "type": "TRAVEL",
+      "name": "Alcolm Carrier Solutions",
+      "description": "Application delivered to an organization for their drivers to keep track of the loading and unloading time of the logistics assigned to them along with the options to upload documents. Also provides localization for Dutch and Croatian.",
+      "stack": [
+        "Swift",
+        "Storyboard",
+        "FCM Notifications",
+        "Location Manager",
+        "Localization"
+      ],
+      "tone": "blue",
+      "icon": "◈",
+      "url": "https://apps.apple.com/pk/app/alcolm-carrier-solutions/id6473515921",
+      "images": [
+        "/media/projects/project-03-image-01.jpg",
+        "/media/projects/project-03-image-02.jpg",
+        "/media/projects/project-03-image-03.jpg",
+        "/media/projects/project-03-image-04.jpg",
+        "/media/projects/project-03-image-05.jpg",
+        "/media/projects/project-03-image-06.jpg",
+        "/media/projects/project-03-image-07.jpg",
+        "/media/projects/project-03-image-08.jpg",
+        "/media/projects/project-03-image-09.jpg",
+        "/media/projects/project-03-image-10.jpg",
+        "/media/projects/project-03-image-11.jpg"
+      ]
+    },
+    {
+      "number": "04",
+      "type": "RELIGIOUS",
+      "name": "Salah Tracker",
+      "description": "A daily use application that can be used to track your daily offered prayers and store them in local database and can be seen in the graph. Additionally, it comes in handy by letting you check the prayer times according to the different school of thoughts, see the gibla direction add lets you read the Quran along with listening to our favorite Mishary Rashid Alafasy.",
+      "stack": [
+        "Swift",
+        "Storyboard",
+        "Firebase Storage",
+        "Local Notifications",
+        "Location Manager",
+        "SQLite DB"
+      ],
+      "tone": "sage",
+      "icon": "✳",
+      "url": "https://apps.apple.com/pk/app/salah-tracker/id1423236121",
+      "images": [
+        "/media/projects/project-04-image-01.jpg",
+        "/media/projects/project-04-image-02.jpg",
+        "/media/projects/project-04-image-03.jpg",
+        "/media/projects/project-04-image-04.jpg",
+        "/media/projects/project-04-image-05.jpg",
+        "/media/projects/project-04-image-06.jpg",
+        "/media/projects/project-04-image-07.jpg",
+        "/media/projects/project-04-image-08.jpg",
+        "/media/projects/project-04-image-09.jpg",
+        "/media/projects/project-04-image-10.jpg"
+      ]
+    },
+    {
+      "number": "05",
+      "type": "BEAUTY, LIFESTYLE",
+      "name": "UpNext Bookings",
+      "description": "UpNext is an all-in-one beauty and wellness booking app. Discover trusted local professionals, find services with AI-powered photo search, book and pay securely, and manage appointments. Pros can showcase their work, manage bookings, and connect with clients.",
+      "stack": [
+        "React Native",
+        "Redux Toolkit",
+        "Async Storage",
+        "FCM Notifications",
+        "Location Manager",
+        "Google Maps",
+        "Google Address",
+        "Stripe Payment"
+      ],
+      "tone": "sage",
+      "icon": "✳",
+      "url": "https://apps.apple.com/us/app/upnext-bookings/id6804572363",
+      "images": [
+        "/media/projects/project-05-image-01.jpg",
+        "/media/projects/project-05-image-02.jpg",
+        "/media/projects/project-05-image-03.jpg",
+        "/media/projects/project-05-image-04.jpg",
+        "/media/projects/project-05-image-05.jpg",
+        "/media/projects/project-05-image-06.jpg",
+        "/media/projects/project-05-image-07.jpg",
+        "/media/projects/project-05-image-08.jpg"
+      ]
+    },
+    {
+      "number": "06",
+      "type": "FOOD & DRINK",
+      "name": "QuikPik: Shop Local",
+      "description": "Quikpik makes grocery shopping simple: browse local products, order for delivery or click-and-collect, and track your order in real time. Save favorites, build shopping lists, pay securely, and access exclusive deals—all in one app.",
+      "stack": [
+        "Swift / UIKit",
+        "Cocoapods Integration",
+        "Auto Layout",
+        "Google Maps",
+        "Google Address",
+        "FCM Notifications",
+        "Stripe Payment"
+      ],
+      "tone": "sage",
+      "icon": "✳",
+      "url": "https://apps.apple.com/us/app/quikpik-shop-local/id6478923292",
+      "images": [
+        "/media/projects/project-06-image-01.jpg",
+        "/media/projects/project-06-image-02.jpg",
+        "/media/projects/project-06-image-03.jpg",
+        "/media/projects/project-06-image-04.jpg",
+        "/media/projects/project-06-image-05.jpg",
+        "/media/projects/project-06-image-06.jpg",
+        "/media/projects/project-06-image-07.jpg",
+        "/media/projects/project-06-image-08.jpg"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "01 / IOS DEVELOPMENT",
+      "items": [
+        "Swift",
+        "SwiftUI",
+        "UIKit",
+        "Storyboards",
+        "XIB Views",
+        "Localisation"
+      ]
+    },
+    {
+      "title": "02 / APPLE FRAMEWORKS",
+      "items": [
+        "CoreLocation",
+        "CoreData",
+        "AVFoundation",
+        "MapKit",
+        "SiriKit",
+        "Contacts",
+        "UserNotifications",
+        "In-App Purchase",
+        "Subscription",
+        "Apple API"
+      ]
+    },
+    {
+      "title": "03 / CROSS-PLATFORM MOBILE",
+      "items": ["React Native"]
+    },
+    {
+      "title": "04 / API & THIRD PARTY INTEGRATIONS",
+      "items": [
+        "REST API Integration",
+        "Stripe",
+        "AES/RSA Cryptography",
+        "Facebook API",
+        "Google API",
+        "Google Maps",
+        "Firebase Authentication",
+        "Firebase Database",
+        "Firebase Storage",
+        "Firebase Push Notifications",
+        "Alamofire",
+        "Socket.io",
+        "CocoaPods Integration"
+      ]
+    },
+    {
+      "title": "05 / TOOLS & WORKFLOW",
+      "items": ["GitHub", "Vibe Coding", "Jira", "Trello", "Glowingify"]
+    },
+    {
+      "title": "06 / DESIGN PATTERNS",
+      "items": ["MVC", "MVVM", "Clean Architecture"]
+    },
+    {
+      "title": "07 / UI & DESIGN",
+      "items": ["Create UI from Figma"]
+    }
+  ],
+  "experience": [
+    {
+      "date": "2021 — PRESENT",
+      "title": "iOS App Developer",
+      "organization": "GlowingSoft Technologies",
+      "description": "Building and Publishing apps using swift and swiftUI only for iOS Devices."
+    },
+    {
+      "date": "2024 — PRESENT",
+      "title": "React Native App Developer",
+      "organization": "GlowingSoft Technologies",
+      "description": "Building and Publishing apps using React Native for both iOS & Android Devices."
+    },
+    {
+      "date": "2026 — PRESENT",
+      "title": "Mobile App Developer",
+      "organization": "UpWork",
+      "description": "Working as a freelance developer. Open for Personal projects, Collaborations & Freelancing projects."
+    }
+  ],
+  "education": [
+    {
+      "date": "2016 - 2021",
+      "degree": "BS in Software Engineering",
+      "institution": "International Islamic University Islamabad",
+      "cgpa": "3.18 / 4.0",
+      "marks": "",
+      "description": ""
+    }
+  ]
+}
